@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Paperlogy";
+  src: url("./Paperlogy-6SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+}
+:root {
+  --duyu-paper: #fff9ef;
+  --duyu-panel: #fffefd;
+  --duyu-ink: #182c3a;
+  --duyu-teal: #11665e;
+  --duyu-apricot: #f4ba88;
+  --duyu-border: #d3c9b7;
+}
+body { color: var(--duyu-ink); background: var(--duyu-paper); font-family: system-ui, "Malgun Gothic", sans-serif; }
+h1, h2, h3, legend, button { font-family: "Paperlogy", system-ui, sans-serif; font-weight: 600; }
+.duyu-brand { display: block; width: min(17rem, 75vw); height: auto; }
+input, select, output { font-variant-numeric: tabular-nums; }
+:focus-visible { outline: 3px solid var(--duyu-teal); outline-offset: 3px; }
